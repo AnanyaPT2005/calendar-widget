@@ -1,8 +1,30 @@
+
+
 {
   "name": "electron-app",
   "version": "1.0.0",
   "main": "main.js",
+
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+
+  "devDependencies": {
+    "electron": "^39.2.7",
+    "electron-builder": "^26.4.0",
+    "electronmon": "^2.0.4"
+  },
+
+  "build": {
+    "appId": "com.ananya.calendar",
+    "productName": "Calendar Widget",
+    "icon": "calendar512.ico",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ]
   }
 }
